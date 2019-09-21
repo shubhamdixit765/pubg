@@ -29,11 +29,19 @@ public class Solution {
         this.ISBN = ISBN;
     }
 
-    public void Books(String Bookname, String Authorname, long ISBN) {
+    public void Solution(String Bookname, String Authorname, long ISBN) {
         this.bookname = Bookname;
         this.authorname = Authorname;
         this.ISBN = ISBN;
     }
+
+    @Override
+    public String toString() {
+        return
+                ("Book Name:" + bookname + "\nAuthor Name:" + authorname + "\nISBN:" + ISBN);
+    }
+
+
 
 }
 
