@@ -65,6 +65,11 @@ class Test {
                 scanner.nextLine();
             }
         }
+        for (int j = 0; j < n; j++) {
+            System.out.println("--------------------------------");
+            System.out.println("Book Name:" + bookname[j] + "\nAuthor name:" + authorname[j] + "\nISBN:" + ISBN[j]);
+            System.out.println("--------------------------------");
+        }
     }
 }
 
