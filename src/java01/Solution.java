@@ -41,7 +41,9 @@ public class Solution {
                 ("Book Name:" + bookname + "\nAuthor Name:" + authorname + "\nISBN:" + ISBN);
     }
 
+}
 
+class Test {
 
 }
 
