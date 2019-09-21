@@ -1,5 +1,7 @@
 package java01;
 
+import java.util.Scanner;
+
 public class Solution {
     private String bookname;
     private String authorname;
@@ -45,7 +47,13 @@ public class Solution {
 
 class Test {
     public static void main(String[] args) {
-
+        System.out.println("enter the number of books");
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        String bookname[] = new String[n];
+        String authorname[] = new String[n];
+        long ISBN[] = new long[n];
+        scanner.nextLine();
     }
 }
 
